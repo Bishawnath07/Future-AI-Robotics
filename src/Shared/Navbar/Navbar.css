@@ -1,0 +1,40 @@
+@media screen and (max-width: 420px){
+    .avatar-div{
+        margin-left: 8rem;
+    }
+    .explorre-btn{
+        margin: auto;
+        margin-top: 8px;
+    }
+    .bannar-section{
+        text-align: center;
+    }
+
+    .bannar-image  {
+        height: 300px;
+        width: 1/2;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .welcome {
+        margin: auto;
+    }
+   
+}
+@media screen and (max-width: 900px) and (min-width: 420px){
+    .avatar-div{
+        margin-left: 10rem;
+    }
+}
+@media screen and (max-width: 1280px) and (min-width: 900px){
+    .avatar-div{
+       margin-left: 10rem;
+       margin-right: 5rem;
+    }
+}
+@media  (min-width: 1280px){
+    .avatar-div{
+       margin-left: 8rem;
+       margin-right: 1rem;
+    }
+}
