@@ -43,7 +43,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className="max-w-7xl mx-auto md:pt-4">
+        <div className="max-w-7xl mx-auto md:pt-4 overflow-hidden">
             <div className="container absolute text-white mx-auto">
                 <div className="navbar ">
                     <div className="navbar-start">

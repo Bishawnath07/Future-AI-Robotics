@@ -17,7 +17,7 @@ const Bannar = () => {
                     <HiChevronRight className='bg-white h-7 w-7 md:h-10 md:w-10 text-red-600 p-2 rounded-full'></HiChevronRight>
                 </div>
             </div>
-            <div className='md:w-1/2'>
+            <div className='md:w-1/2 '>
                 <img className='bannar-image ' src={image} alt="" />
             </div>
         </div>

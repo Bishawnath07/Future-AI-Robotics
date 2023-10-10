@@ -1,0 +1,35 @@
+@media screen and (max-width: 420px){
+    .FutureBotics {
+            text-align: center;
+            margin-top: 30px;
+            align-items: center;
+            margin: auto;
+        }
+        .business-title{
+            width: 200px;
+            margin: auto;
+            text-align: center;
+        }
+        .business-details{
+            width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+        .italic{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+}
+@media screen and (max-width: 900px) and (min-width: 420px) {
+.FutureBotics {
+    text-align: center;
+    margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+    .avatar-div {
+        margin-left: 10rem;
+        margin-right: 5rem;
+    }
+}
