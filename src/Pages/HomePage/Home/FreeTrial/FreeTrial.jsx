@@ -25,7 +25,7 @@ const FreeTrial = () => {
                     </div>
                 </div>
                 <div>
-                    <img className="w-[25rem]  md:mr-[5rem] " src={image} alt="" />
+                    <img className="w-[25rem]  md:mr-[5rem] trial-img" src={image} alt="" />
                 </div>
 
             </div>
