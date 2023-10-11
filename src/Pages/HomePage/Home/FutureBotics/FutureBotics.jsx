@@ -24,7 +24,7 @@ const FutureBotics = () => {
                     <h3 className='font-semibold text-[14px]  md:text-[19px] md:text-justify text-[#9b9b9e] mb-10 business-details'>Emphasize FutureBotics core values, which include innovation, sustainability, and a passion for pushing the boundaries of possibility. Additionally, mention that FutureBotics offers a range of services, including customization options to tailor robots according to specific needs.</h3>
                     <div className='talk-btn hidden lg:flex items-center justify-between bg-[#2b9ef0] rounded-full  px-4 py-2 text-black lg:font-bold text-center w-[10rem] md:w-[12rem]'>
                         <button className='md:text-[20px] text-[13px]' >  Read More</button>
-                        <HiChevronRight className='bg-white lg:h-10 h-6 cursor-pointer w-6 lg:w-10 text-red-600 p-1 md:p-2 rounded-full'></HiChevronRight>
+                        <HiChevronRight className='arrow bg-white lg:h-10 h-6 cursor-pointer w-6 lg:w-10 text-red-600 p-1 md:p-2 rounded-full'></HiChevronRight>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@ const FutureBotics = () => {
                     <h1 className='text-[16px] md:text-[30px] font-bold'>Our Mission Is To Accelerate The Development Of Ai</h1>
                 </div>
                 <div className='w-[80%] mx-auto'>
-                    <div className="stats transition duration-500 transform hover:-translate-y-2s shadow flex flex-col  md:justify-between">
+                    <div className="stats transition duration-500 transform hover:-translate-y-2s shadow flex   md:justify-between">
 
                         <div className="stat transition duration-500 transform hover:-translate-y-2 place-items-center">
                             <div className="stat-value transition duration-500 transform hover:-translate-y-2">39K</div>

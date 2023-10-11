@@ -1,0 +1,76 @@
+.bg-image{
+    background-image: url("../Services/Images/choose-backgroundimage1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.talk-btn:hover{
+    background: #2b9ef0;
+    color: black;
+}
+.talk-btn:hover .arrow{
+    background: #fff;
+}
+
+
+/* hover:bg-[#2b9ef0] p-4 rounded-lg */
+@media screen and (max-width: 620px){
+    .service-card:hover .service-image {
+            background-color: #2b9ef0;
+        }
+    .service-card:hover .card-title {
+            color: #2b9ef0;
+        }
+    .service-card:hover .read-btn {
+            color: #2b9ef0;
+        }
+
+        .semititle{
+            margin: auto;
+        }
+        .service-title{
+            width: 230px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+        .service-card{
+            width: 290px;
+            margin: auto;
+        }
+        .consectetur{
+            width: 300px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .choose-about-section{
+            margin-top: 30rem;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .about-title {
+            margin: auto;
+        }
+         .about-text{
+            margin: auto;
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+         .about-pragraph{
+            margin: auto;
+            text-align: center;
+        }
+        .talk-btn{
+            align-items: center;
+            margin: auto;
+            margin-top: 15px;
+        }
+        .about-section-img{
+          
+            height: 300px;
+            margin-left: 5rem;
+            margin-top: 40px;
+        }
+}

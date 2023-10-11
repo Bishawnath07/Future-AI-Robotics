@@ -1,0 +1,13 @@
+@media screen and (max-width: 420px) {
+    .faq-title{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .collapse-section{
+        gap: 15rem;
+    }
+    .collapse-title{
+        font-size: 15px;
+    }
+}

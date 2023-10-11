@@ -92,7 +92,7 @@ const Navbar = () => {
                         <HiChevronRight className='bg-white lg:h-10 h-6  w-6 lg:w-10 text-red-600 p-1 md:p-2 rounded-full'></HiChevronRight>
                     </div>
 
-                    <div className="dropdown dropdown-end avatar-div">
+                    <div className="dropdown dropdown-end avatar-div  ">
 
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">

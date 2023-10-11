@@ -1,0 +1,16 @@
+@media screen and (max-width: 420px){
+    .form{
+        margin: auto;
+    }
+    .freetrial{
+        margin: auto;
+    }
+    .freetrial-title{
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .talk-btn{
+        margin-bottom: 40px;
+    }
+}

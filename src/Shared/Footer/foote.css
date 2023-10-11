@@ -1,0 +1,6 @@
+.hr-line {
+    height: 0px !important;
+    color: #10658d !important;
+    border-bottom: 1px solid;
+    margin-top: 2px;
+}

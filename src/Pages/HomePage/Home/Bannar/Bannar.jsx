@@ -4,7 +4,7 @@ import '../../../../Shared/Navbar/Navbar.css'
 
 const Bannar = () => {
     return (
-        <div className="lg:flex bannar-section lg:justify-between">
+        <div className="max-w-7xl lg:flex bannar-section lg:justify-between">
             <div className='pt-[6rem] lg:mt-[15rem] md:pt-[2rem] '>
                 <h4 className='mb-3 md:mb-0 bg-white rounded-3xl p-2 text-black font-bold text-center welcome w-[12rem] md:w-[15rem] text-[13px] ' >Welcome to FutureBotics</h4>
                 <h1 className=' text-white font-bold text-[30px] md:text-6xl md:my-6'>Pioneering <br /> The <span className='text-white  text-[40px] md:text-8xl'>Future</span> of <br /> Robotics.</h1>
@@ -18,7 +18,7 @@ const Bannar = () => {
                 </div>
             </div>
             <div className='md:w-1/2 '>
-                <img className='bannar-image ' src={image} alt="" />
+                <img className='bannar-image overflow-hidden' src={image} alt="" />
             </div>
         </div>
     );
